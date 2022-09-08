@@ -1,20 +1,28 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        // list of java keywords
-        //https://en.wikipedia.org/wiki/List_of_Java_keywords
-        int highScore=50;
-        int lowscore = 10;
-        if(highScore==15) {
-            int myscore =10;
-            System.out.println("This is an expression" + lowscore);
-        }
-
-        System.out.println(myscore);
-
-        int score = 1000;
-
-
-
+        calculateScore(true, 800, 5, 100);
+        calculateScore(true, 10000, 8,200);
+        int highscore = calculateScoreReturn(true, 800, 5, 100);
+        System.out.println("final Score " + highscore);
     }
+
+    public static void calculateScore(boolean gameover, int score, int levelcompleted, int bonus){
+        if(gameover) {
+            int finalScore = score + (levelcompleted * bonus);
+            finalScore += 2000;
+            System.out.println("Your final score was " + finalScore);
+        }
+    }
+
+    public static int calculateScoreReturn(boolean gameover, int score, int levelcompleted, int bonus){
+        if(gameover) {
+            int finalScore = score + (levelcompleted * bonus);
+            finalScore += 2000;
+            //System.out.println("Your final score was " + finalScore);
+            return finalScore;
+        }
+        return -1;
+    }
+
+
 }
