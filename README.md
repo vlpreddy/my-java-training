@@ -15,3 +15,7 @@ returns the int value if the argument is float
 returns the long value if the argument is double
 --------------------------------------------------------------------------------------------------------
 
+bytes converter
+https://www.unitconverters.net/data-storage/kb-to-mb.htm
+
+--------------------------------------------------------------------------------------------------------
