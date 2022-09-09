@@ -19,3 +19,6 @@ bytes converter
 https://www.unitconverters.net/data-storage/kb-to-mb.htm
 
 --------------------------------------------------------------------------------------------------------
+Casting in Java
+https://www.youtube.com/watch?v=9ATVKpRZaPg
+--------------------------------------------------------------------------------------------------------
